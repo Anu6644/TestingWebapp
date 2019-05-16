@@ -23,19 +23,8 @@
               <version>3.0.1</version>
 	</dependency>
     </dependencies>
-
-    <build>
-        <finalName>SampleServlet</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-            </plugin>
-        </plugins>
-    </build>
-         
-<profiles>
+	
+    <profiles>
 <profile>
 <id>sonar</id>
 <activation>
@@ -49,6 +38,19 @@ http://35.170.51.210:9000
 </properties>
 </profile>
 </profiles>
+
+    <build>
+        <finalName>SampleServlet</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+            </plugin>
+        </plugins>
+    </build>
+         
+
          
          
 </project>
