@@ -33,7 +33,7 @@
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>
-http://ip-172-31-8-140.ec2.internal:9000 
+http://10.88.0.10:9000 
 </sonar.host.url>
 </properties>
 </profile>
